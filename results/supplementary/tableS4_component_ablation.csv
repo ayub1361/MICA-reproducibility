@@ -1,0 +1,9 @@
+k,Policy,Irrec.,Interv.,Base-score loss,Median ms
+10,MICA (full layer),0.000,0.066,0.014,63.7
+10,horizon max-min control,0.000,0.311,0.038,33.5
+10,feasibility filter,0.000,0.066,0.014,10.2
+10,remove displacement objective,0.000,0.655,0.155,—
+10,remove certification (= control),0.000,0.311,0.038,—
+10,remove leximin tie-break,0.000,0.066,0.014,—
+20,MICA (full layer),0.000,0.071,0.013,315.1
+20,feasibility filter,0.000,0.071,0.013,52.5

@@ -1,0 +1,14 @@
+Dimension,Setting,n,Excl.,MICA interv.,Control interv.,Ratio
+Group size,3 members,110,0,0.066,0.311,4.73×
+Group size,4 members,105,5,0.381,0.500,1.31×
+Group size,5 members,88,23,0.318,0.489,1.54×
+Base recommender,utilitarian,110,0,0.066,0.311,4.73×
+Base recommender,least misery,110,0,0.111,0.389,3.49×
+Base recommender,popularity,110,0,0.466,0.873,1.87×
+Predictor quality,100% of train,110,0,0.066,0.311,4.73×
+Predictor quality,50% of train,110,0,0.089,0.289,3.26×
+Predictor quality,25% of train,110,0,0.095,0.339,3.55×
+Contract level ρ,0.70,110,0,0.007,0.311,45.8×
+Contract level ρ,0.80,110,0,0.020,0.311,15.2×
+Contract level ρ,0.90,110,0,0.066,0.311,4.73×
+Contract level ρ,0.95,110,0,0.130,0.311,2.40×

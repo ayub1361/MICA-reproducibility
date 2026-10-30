@@ -1,0 +1,19 @@
+k,policy,n_groups,n_excluded,irrecoverability,median_decision_ms
+5,MICA,110,0,0.0,15.3432
+5,horizon control,110,0,0.0,12.5031
+5,unfiltered base,110,0,0.2273,0.0008
+10,MICA,110,0,0.0,76.3044
+10,horizon control,110,0,0.0,41.566
+10,unfiltered base,110,0,0.1818,0.0008
+15,MICA,110,0,0.0,315.379
+15,horizon control,110,0,0.0,145.2461
+15,unfiltered base,110,0,0.1727,0.0013
+20,MICA,110,0,0.0,922.7265
+20,horizon control,110,0,0.0,476.5264
+20,unfiltered base,110,0,0.1818,0.0017
+25,MICA,110,0,0.0,357.6008
+25,horizon control,110,0,0.0,183.9445
+25,unfiltered base,110,0,0.1818,0.0009
+30,MICA,110,0,0.0,333.8363
+30,horizon control,110,0,0.0,171.6005
+30,unfiltered base,110,0,0.1818,0.0009

@@ -1,0 +1,6 @@
+Section,Study,Population,Calibration,Role
+"VI-A, VI-B (Table III, Table S5)","confirmatory, 29 policies",held-out evaluation half,"predeclared, disjoint-unit, city-restricted",held-out result
+"VI, opening (Table S6)",margin sweep,held-out evaluation half,six declared σ values,margin dependence
+VI-C (Table IV),replication,"full roster (2021 window; Google Local, n = 231) or evaluation half","recalibrated per cell, or fixed σ","replication, unpaired"
+"VI-D (Table V, Table S8)",design sensitivity,Phl evaluation half,fixed σ,sensitivity
+VI-E (Fig. 5),cost and domain sweep,Phl evaluation half,fixed σ,cost and validated range

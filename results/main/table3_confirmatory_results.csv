@@ -1,0 +1,7 @@
+City,Policy,n,Irrecoverability (95% CI),Contract,Intervention,Base loss,p vs. MICA
+Philadelphia,MICA,110,"0.000 [0, 0.034]",1.000,0.043,0.008,—
+Philadelphia,Horizon control,110,"0.000 [0, 0.034]",1.000,0.270,0.031,†
+Philadelphia,Unfiltered base,110,"0.109 [0.064, 0.181]",0.836,0.000,0.000,0.0005
+Tampa,MICA,109,"0.000 [0, 0.034]",1.000,0.064,0.012,—
+Tampa,Horizon control,109,"0.000 [0, 0.034]",1.000,0.369,0.047,†
+Tampa,Unfiltered base,109,"0.092 [0.051, 0.161]",0.789,0.000,0.000,0.0020

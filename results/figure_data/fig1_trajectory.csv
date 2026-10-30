@@ -1,0 +1,5 @@
+day,A_sigma,reach_status,worst_member_coverage,alpha,group_id
+1,0.982474,OPTIMAL,0.234304,0.884226,d5e72fa79eabb6fe
+2,0.926326,OPTIMAL,0.449306,0.884226,d5e72fa79eabb6fe
+3,0.861923,OPTIMAL,0.615614,0.884226,d5e72fa79eabb6fe
+4,0.861923,OPTIMAL,0.861923,0.884226,d5e72fa79eabb6fe

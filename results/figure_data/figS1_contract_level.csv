@@ -1,0 +1,13 @@
+rho,policy,n_groups,n_excluded,irrecoverability,intervention_rate,base_score_loss,contract_attainment
+0.7,MICA,110,0,0.0,0.0068,0.0007,1.0
+0.7,horizon max-min control,110,0,0.0,0.3114,0.0375,1.0
+0.7,utilitarian (unfiltered base),110,0,0.0273,0.0,0.0,0.9727
+0.8,MICA,110,0,0.0,0.0205,0.0034,1.0
+0.8,horizon max-min control,110,0,0.0,0.3114,0.0375,1.0
+0.8,utilitarian (unfiltered base),110,0,0.0727,0.0,0.0,0.9273
+0.9,MICA,110,0,0.0,0.0659,0.0139,1.0
+0.9,horizon max-min control,110,0,0.0,0.3114,0.0375,1.0
+0.9,utilitarian (unfiltered base),110,0,0.1818,0.0,0.0,0.7636
+0.95,MICA,110,0,0.0,0.1295,0.0195,1.0
+0.95,horizon max-min control,110,0,0.0,0.3114,0.0375,1.0
+0.95,utilitarian (unfiltered base),110,0,0.3182,0.0,0.0,0.5909

@@ -1,0 +1,8 @@
+Axis,Setting,n,excl.,MICA interv.,Control interv.,Ratio
+Group size,3 members,110,0,0.066,0.311,4.73×
+Group size,4 members,105,5,0.381,0.500,1.31×
+Group size,5 members,88,23,0.318,0.489,1.54×
+Contract level,0.70,110,0,0.007,0.311,45.8×
+Contract level,0.80,110,0,0.020,0.311,15.2×
+Contract level,0.90,110,0,0.066,0.311,4.73×
+Contract level,0.95,110,0,0.130,0.311,2.40×

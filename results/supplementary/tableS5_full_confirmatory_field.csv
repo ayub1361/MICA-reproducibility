@@ -1,0 +1,28 @@
+Policy,Family,Phl irrec.,Phl interv.,Tpa irrec.,Tpa interv.
+horizon max-min control,control,0.000,0.270,0.000,0.369
+MICA,ours,0.000,0.043,0.000,0.064
+EP-FuzzDA (with memory),OSF,0.073,0.214,0.046,0.216
+SDAA,OSF,0.073,0.234,0.064,0.289
+LT-Prop (fairness),OSF,0.082,0.205,0.046,0.229
+LT-Prop (utility),OSF,0.082,0.173,0.064,0.211
+greedy leximin,classical,0.082,0.343,0.037,0.376
+CVaR-DRO,DRO,0.091,0.291,0.037,0.365
+weighted-deficit,control,0.091,0.248,0.046,0.298
+CVaR-DRO (tail),DRO,0.100,0.150,0.073,0.213
+utilitarian (unfiltered base) ≡,classical,0.109,0.000,0.092,0.000
+Group-DRO ≡ Smoothed-DRO ≡ base,DRO,0.109,0.000,0.092,0.000
+multiplicative,classical,0.109,0.059,0.083,0.073
+average-without-misery,classical,0.109,0.034,0.064,0.053
+Borda ≡ GFAR,classical / OSF,0.118,0.225,0.138,0.236
+EP-FuzzDA,OSF,0.118,0.189,0.064,0.193
+alternating,control,0.127,0.409,0.110,0.454
+eager reserve,control,0.127,0.334,0.110,0.383
+flat reserve,control,0.145,0.218,0.101,0.243
+least misery,classical,0.173,0.416,0.055,0.463
+most pleasure,classical,0.191,0.359,0.257,0.417
+ADAPT-FAdJO (w = 0),reconstructed,0.255,0.484,0.239,0.530
+ADAPT-DiGSFO,reconstructed,0.327,0.595,0.376,0.619
+ADAPT-FAdJO (w = 1),reconstructed,0.536,0.673,0.633,0.713
+ADAPT-FAdJO (w = 0.5),reconstructed,0.536,0.673,0.560,0.706
+proportional share,control,0.536,0.834,0.541,0.846
+random,control,0.736,0.920,0.817,0.924

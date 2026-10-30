@@ -1,0 +1,9 @@
+City,Metric (direction),MICA / control,Difference [95% CI],Verdict at m0 = 0.03
+Phl,irrecoverability (↓),0.000 / 0.000,"+0.000 [0, 0]",equal; no discordant pair
+Phl,intervention rate (↓),0.043 / 0.270,"−0.227 [−0.268, −0.189]",materially superior
+Phl,base-score loss (↓),0.008 / 0.031,"−0.023 [−0.031, −0.016]",non-inferior; margin not excluded
+Phl,worst-member coverage (↑),—,"−0.023 [−0.028, −0.018]",control better; within margin
+Tpa,irrecoverability (↓),0.000 / 0.000,"+0.000 [0, 0]",equal; no discordant pair
+Tpa,intervention rate (↓),0.064 / 0.369,"−0.305 [−0.349, −0.264]",materially superior
+Tpa,base-score loss (↓),0.012 / 0.047,"−0.035 [−0.044, −0.026]",superior; margin not excluded
+Tpa,worst-member coverage (↑),—,"−0.027 [−0.031, −0.022]",control better; margin not excluded
