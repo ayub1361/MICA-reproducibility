@@ -4,9 +4,9 @@ import unittest
 
 import numpy as np
 
-from vista_gt.bruteforce import brute_force_select
-from vista_gt.models import SolverConfig
-from vista_gt.policy import select_vista
+from mica.bruteforce import brute_force_select
+from mica.models import SolverConfig
+from mica.policy import select_vista
 
 from tests.helpers import problem, scenario
 

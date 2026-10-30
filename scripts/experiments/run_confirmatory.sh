@@ -10,5 +10,5 @@ BASE="--members 3 --horizon 4 --pool-size 20 --rho 0.9 --blend 0.5 \
 --ablate none --tag pre_pandemic --model-dir models"
 
 for CITY in Philadelphia Tampa; do
-  python -m vista_gt.s5_simulate --city "$CITY" $BASE --results-dir results_confirmatory
+  python -m mica.s5_simulate --city "$CITY" $BASE --results-dir results_confirmatory
 done

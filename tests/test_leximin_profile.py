@@ -5,10 +5,10 @@ import unittest
 
 import numpy as np
 
-from vista_gt.leximin import leximin_refine
-from vista_gt.models import DecisionProblem, RouteScenario, SolverConfig
-from vista_gt.policy import select_vista
-from vista_gt.profile import CERTIFIED, INFEASIBLE, MARGINAL, build_profile, reference_problem
+from mica.leximin import leximin_refine
+from mica.models import DecisionProblem, RouteScenario, SolverConfig
+from mica.policy import select_vista
+from mica.profile import CERTIFIED, INFEASIBLE, MARGINAL, build_profile, reference_problem
 
 CONFIG = SolverConfig(time_limit_seconds=20.0)
 

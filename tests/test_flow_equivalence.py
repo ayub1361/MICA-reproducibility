@@ -5,8 +5,8 @@ import unittest
 
 import numpy as np
 
-from vista_gt.milp import maximize_common_coverage, needs_flow
-from vista_gt.models import DecisionProblem, RouteScenario, SolverConfig
+from mica.milp import maximize_common_coverage, needs_flow
+from mica.models import DecisionProblem, RouteScenario, SolverConfig
 
 CONFIG = SolverConfig(time_limit_seconds=30.0)
 

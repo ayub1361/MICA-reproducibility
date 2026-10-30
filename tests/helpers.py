@@ -4,7 +4,7 @@ from collections.abc import Mapping, Sequence
 
 import numpy as np
 
-from vista_gt.models import DecisionProblem, RouteScenario
+from mica.models import DecisionProblem, RouteScenario
 
 
 def scenario(

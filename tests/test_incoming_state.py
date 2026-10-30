@@ -4,8 +4,8 @@ import unittest
 
 import numpy as np
 
-from vista_gt.milp import solve_model, verify_witness
-from vista_gt.models import DecisionProblem, RouteScenario, SolverConfig
+from mica.milp import solve_model, verify_witness
+from mica.models import DecisionProblem, RouteScenario, SolverConfig
 
 CONFIG = SolverConfig(time_limit_seconds=10.0)
 

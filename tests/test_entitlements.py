@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import unittest
 
-from vista_gt.entitlements import prepare_entitlements
-from vista_gt.validation import ContractError
+from mica.entitlements import prepare_entitlements
+from mica.validation import ContractError
 
 from tests.helpers import scenario
 
