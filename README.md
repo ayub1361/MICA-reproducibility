@@ -10,7 +10,7 @@ MICA (Minimal Intervention for Contract Attainability) is a filter that runs on 
 
 | Folder | What it holds |
 |---|---|
-| `src/vista_gt/` | The method, the 29 compared policies and the day-by-day simulator. `vista_gt` is the internal package name; in raw simulator output the MICA policy is labelled `vista`. |
+| `src/mica/` | The method, the 29 compared policies and the day-by-day simulator. In raw simulator output the MICA policy is labelled `vista`. |
 | `scripts/experiments/` | Shell scripts that build the processed data and run the confirmatory study and the two data replications. |
 | `scripts/analysis/` | Recomputation of the Table III statistics and of the intervention-ratio intervals from the per-group outcomes. |
 | `scripts/figures/` | Plotting code for Figs. 1, 3, 4, 5 and S1. |
@@ -79,7 +79,7 @@ bash scripts/experiments/run_replication_2021_window.sh  # Table IV, 2021 window
 bash scripts/experiments/run_replication_google_local.sh # Table IV, Google Local
 ```
 
-Each simulator run writes one row per group, decision day and policy, together with a provenance file that records the configuration and input hashes. The other studies in the paper use the same entry point, `python -m vista_gt.s5_simulate`, with the settings stated in the paper and the Supplementary Material (see `--help`). The program (P) is solved with the HiGHS solver bundled with SciPy; decision times depend on the machine. Where several anchors are exactly tied, the solver may return a different but equivalent choice, which can move individual cells of the ablation table slightly.
+Each simulator run writes one row per group, decision day and policy, together with a provenance file that records the configuration and input hashes. The other studies in the paper use the same entry point, `python -m mica.s5_simulate`, with the settings stated in the paper and the Supplementary Material (see `--help`). The program (P) is solved with the HiGHS solver bundled with SciPy; decision times depend on the machine. Where several anchors are exactly tied, the solver may return a different but equivalent choice, which can move individual cells of the ablation table slightly.
 
 ## License
 
