@@ -40,7 +40,7 @@ MICA (Minimal Intervention for Contract Attainability) is a filter that runs on 
 | Fig. 5 | `results/figure_data/fig5_cost_and_scope.csv`, `scripts/figures/fig5.py` |
 | Fig. S1 | `results/figure_data/figS1_contract_level.csv`, `scripts/figures/figS1.py` |
 
-The table CSVs reproduce the printed tables; the table notes in the paper explain the symbols (for example, † in Table III marks a McNemar test with no discordant pairs). In `table3_per_group_outcomes.csv`, member identifiers are replaced by salted hashes, which keeps the membership overlap between groups (used by the cluster bootstrap) without redistributing Yelp user identifiers.
+The table CSVs reproduce the printed tables. In `table3_per_group_outcomes.csv`, member identifiers are replaced by salted hashes, which keeps the membership overlap between groups (used by the cluster bootstrap) without redistributing Yelp user identifiers.
 
 ## Installation
 
